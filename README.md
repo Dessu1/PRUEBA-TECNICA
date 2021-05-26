@@ -1,5 +1,7 @@
 # NOTA
-No olvidar instalar todas las dependencias con npm install
+No olvidar instalar todas las dependencias con:
+
+### `npm install`
 
 # Credenciales
 
