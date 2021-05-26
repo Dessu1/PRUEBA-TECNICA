@@ -1,0 +1,59 @@
+#header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    display: flex;
+    align-items: center;
+
+    .MuiSvgIcon-root {
+      color: rgb(64, 64, 243);
+      font-size: 2.5rem;
+      margin-left: 2rem;
+    }
+
+    span {
+      color: rgb(64, 64, 243);
+      font-size: 1.5rem;
+      margin-left: 2.5rem;
+    }
+
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  .logOut {
+    display: flex;
+    align-items: center;
+
+    .MuiSvgIcon-root {
+      color: #333;
+      font-size: 2.5rem;
+      margin-right: 1rem;
+    }
+
+    span {
+      font-weight: 300;
+      font-size: 1rem;
+    }
+
+    button {
+      background: none;
+      border: none;
+      margin: 0 2rem;
+      cursor: pointer;
+
+      .MuiSvgIcon-root {
+        font-size: 2rem;
+        color: rgb(64, 64, 243);
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+
+@import "./general/footer";
+@import "./general/buttons";
+@import "./general/spiner";
+
+@import "./home";
+@import "./loginArea";
+@import "./header";
+@import "./createUser";
+
+@import "./notfound";
+
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#login {
+  display: grid;
+  grid-template-areas:
+    "login"
+    "footer";
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 90vh 10vh;
+}

@@ -1,0 +1,12 @@
+#footer-page {
+  grid-area: footer;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  span {
+    margin-right: 1rem;
+    color: rgb(114, 112, 112);
+  }
+}

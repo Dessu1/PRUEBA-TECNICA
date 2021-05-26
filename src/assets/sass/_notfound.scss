@@ -1,0 +1,14 @@
+.notFound {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,74 @@
+  {
+    "data": [
+    {
+      "id": 1144107087,
+      "nombres": "Brian stiven",
+      "apellidos": "Alvarado soto",
+      "estado": true,
+      "rol": "Administrador",
+      "telefono": "3218824429",
+      "email": "brian.stiven.alvarado21@gmail.com",
+      "password" : 1234
+    },
+    {
+      "id": 1144107089,
+      "nombres": "Andres",
+      "apellidos": "Rodrigues Cano",
+      "estado": false,
+      "rol": "Administrador",
+      "telefono": "3218854439",
+      "email": "exmaple@gmail.com",
+      "password": 1234
+    },
+    {
+      "id": 1144107029,
+      "nombres": "Andres",
+      "apellidos": "Rodrigues Cano",
+      "estado": false,
+      "rol": "Administrador",
+      "telefono": "3218854439",
+      "email": "exmaple@gmail.com",
+      "password": 1234
+    },
+    {
+      "id": 1144105089,
+      "nombres": "Andres",
+      "apellidos": "Rodrigues Cano",
+      "estado": false,
+      "rol": "Administrador",
+      "telefono": "3218854439",
+      "email": "exmaple@gmail.com",
+      "password": 1234
+    },
+    {
+      "id": 114412089,
+      "nombres": "Andres",
+      "apellidos": "Rodrigues Cano",
+      "estado": false,
+      "rol": "Administrador",
+      "telefono": "3218854439",
+      "email": "exmaple@gmail.com",
+      "password": 1234
+    },
+    {
+      "id": 1144101089,
+      "nombres": "Andres",
+      "apellidos": "Rodrigues Cano",
+      "estado": false,
+      "rol": "Administrador",
+      "telefono": "3218854439",
+      "email": "exmaple@gmail.com",
+      "password": 1234
+    },
+    {
+      "id": 2144107089,
+      "nombres": "Andres",
+      "apellidos": "Rodrigues Cano",
+      "estado": false,
+      "rol": "Administrador",
+      "telefono": "3218854439",
+      "email": "exmaple@gmail.com",
+      "password": 1234
+    }
+  ]
+}

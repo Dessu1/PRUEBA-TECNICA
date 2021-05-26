@@ -1,0 +1,87 @@
+#usuarios {
+  grid-area: content;
+  background: rgb(236, 236, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    background: #fff;
+    border-radius: 0.5rem;
+    width: 90%;
+    height: 95%;
+
+    .title {
+      display: flex;
+      margin: 1rem 2rem;
+      align-items: center;
+      justify-content: space-between;
+
+      .desc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: rgb(64, 64, 243);
+
+        .MuiSvgIcon-root {
+          margin: 0 1rem;
+          font-size: 1.8rem;
+        }
+
+        span {
+          font-weight: 400;
+        }
+      }
+    }
+
+    .table {
+      margin: 1rem auto;
+      width: 90%;
+
+      th {
+        border: 1px solid rgb(134, 131, 131);
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 2rem;
+      }
+      td {
+        font-weight: 300;
+        font-size: 0.9rem;
+        color: rgb(179, 172, 172);
+        border: 1px solid rgb(179, 172, 172);
+        text-align: center;
+        line-height: 3rem;
+      }
+
+      button {
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        .MuiSvgIcon-root {
+          color: rgb(124, 133, 218);
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .next {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .content {
+        width: auto;
+        margin-top: 2rem;
+        padding-right: 5rem;
+
+        .MuiSvgIcon-root {
+          font-size: 1.5rem;
+          color: rgb(179, 172, 172);
+        }
+      }
+    }
+  }
+}

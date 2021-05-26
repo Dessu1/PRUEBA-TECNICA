@@ -1,0 +1,26 @@
+@import "./general/asideMenu";
+@import "./general/footerPage";
+@import "./general/filter";
+@import "./usuarios";
+
+#home {
+  display: grid;
+  grid-template-areas:
+    "aside-menu header header"
+    "aside-menu content filter"
+    "aside-menu footer footer";
+
+  grid-template-columns: 0.2fr 0.6fr 0.2fr;
+  grid-template-rows: 10vh 85vh 5vh;
+}
+
+#homeHiddenMenu {
+  display: grid;
+  grid-template-areas:
+    "aside-menu header header"
+    "aside-menu content filter"
+    "aside-menu footer footer";
+
+  grid-template-columns: 0.05fr 0.8fr 0.25fr;
+  grid-template-rows: 10vh 85vh 5vh;
+}
